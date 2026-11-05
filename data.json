@@ -1,0 +1,59 @@
+{
+  "title": "Strategy Performance · New money club",
+  "title_cn": "策略业绩公开页 · New money club",
+  "generated_at": "2026-11-05T17:03:14+08:00",
+  "tz": "Asia/Shanghai",
+  "display_rule": "Public display name: New money club; ordinal ①/#1. No UIDs, API keys, or internal env names.",
+  "disclaimer": "Read-only performance summary. Not financial advice. Not copy-trading signals. No API keys or account credentials are published.",
+  "position_status": "合约空仓；现货无策略仓",
+  "scope": {
+    "accounts": "1",
+    "exchange": "WEEX",
+    "note_cn": "仅 WEEX bot 管理账户 New money club；序号 ①；本金=用户指定最新权益基准"
+  },
+  "totals": {
+    "equity": 100011.72,
+    "principal": 100011.72,
+    "net_pnl": 0.0,
+    "return_pct": 0.0,
+    "n_strategies": 0,
+    "strategy_net_u": 0,
+    "wins": 0,
+    "losses": 0,
+    "flats": 0
+  },
+  "accounts": [
+    {
+      "id": 1,
+      "label": "①",
+      "label_plain": "1",
+      "display_name": "New money club",
+      "days": 0,
+      "equity": 100011.72,
+      "principal": 100011.72,
+      "pnl": 0.0,
+      "rate_pct": 0.0,
+      "onboard": "2026-11-05",
+      "n_strat": 0,
+      "net_u": 0,
+      "wins": 0,
+      "losses": 0
+    }
+  ],
+  "strategies": [],
+  "positions": {
+    "updated_at": "2026-11-05T17:03:14+08:00",
+    "futures": [],
+    "spot": [],
+    "rule": "strategy holdings only (not incidental wallet balances)"
+  },
+  "notes_public": [
+    "WEEX copy-trading lead account: New money club.",
+    "Principal baseline reset to latest equity on 2026-11-05 per user.",
+    "Daily refresh (Asia/Shanghai)."
+  ],
+  "source_files": [
+    "live WEEX REST /capi/v3/account/balance",
+    "live WEEX REST /capi/v3/account/position/allPosition"
+  ]
+}
