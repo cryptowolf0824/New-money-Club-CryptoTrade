@@ -1,21 +1,21 @@
 {
   "title": "Strategy Performance · New money club",
   "title_cn": "策略业绩公开页 · New money club",
-  "generated_at": "2026-11-06T00:06:39+08:00",
+  "generated_at": "2026-11-07T00:04:00+08:00",
   "tz": "Asia/Shanghai",
   "display_rule": "Public display name: New money club; ordinal ①/#1. No UIDs, API keys, or internal env names.",
   "disclaimer": "Read-only performance summary. Not financial advice. Not copy-trading signals. No API keys or account credentials are published.",
-  "position_status": "合约空仓；现货无策略仓",
+  "position_status": "合约 HYPE多；现货无策略仓",
   "scope": {
     "accounts": "1",
     "exchange": "WEEX",
     "note_cn": "仅 WEEX bot 管理账户 New money club；序号 ①；本金=用户指定最新权益基准"
   },
   "totals": {
-    "equity": 98777.9,
+    "equity": 99909.22,
     "principal": 100011.72,
-    "net_pnl": -1233.82,
-    "return_pct": -1.2337,
+    "net_pnl": -102.5,
+    "return_pct": -0.1025,
     "n_strategies": 0,
     "strategy_net_u": 0,
     "wins": 0,
@@ -28,11 +28,11 @@
       "label": "①",
       "label_plain": "1",
       "display_name": "New money club",
-      "days": 1,
-      "equity": 98777.9,
+      "days": 2,
+      "equity": 99909.22,
       "principal": 100011.72,
-      "pnl": -1233.82,
-      "rate_pct": -1.2337,
+      "pnl": -102.5,
+      "rate_pct": -0.1025,
       "onboard": "2026-11-05",
       "n_strat": 0,
       "net_u": 0,
@@ -42,8 +42,14 @@
   ],
   "strategies": [],
   "positions": {
-    "updated_at": "2026-11-06T00:06:39+08:00",
-    "futures": [],
+    "updated_at": "2026-11-07T00:04:00+08:00",
+    "futures": [
+      {
+        "symbol": "HYPE",
+        "side": "long",
+        "cost": 77.78
+      }
+    ],
     "spot": [],
     "rule": "strategy holdings only (not incidental wallet balances)"
   },
