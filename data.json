@@ -1,7 +1,7 @@
 {
   "title": "Strategy Performance · New money club",
   "title_cn": "策略业绩公开页 · New money club",
-  "generated_at": "2026-11-07T00:04:00+08:00",
+  "generated_at": "2026-11-07T00:10:58+08:00",
   "tz": "Asia/Shanghai",
   "display_rule": "Public display name: New money club; ordinal ①/#1. No UIDs, API keys, or internal env names.",
   "disclaimer": "Read-only performance summary. Not financial advice. Not copy-trading signals. No API keys or account credentials are published.",
@@ -9,17 +9,17 @@
   "scope": {
     "accounts": "1",
     "exchange": "WEEX",
-    "note_cn": "仅 WEEX bot 管理账户 New money club；序号 ①；本金=用户指定最新权益基准"
+    "note_cn": "仅 WEEX bot 管理账户 New money club；序号 ①；本金=用户指定最新权益基准；策略自 2026-11-05 17:00+08 起算"
   },
   "totals": {
-    "equity": 99909.22,
+    "equity": 99436.74,
     "principal": 100011.72,
-    "net_pnl": -102.5,
-    "return_pct": -0.1025,
-    "n_strategies": 0,
-    "strategy_net_u": 0,
-    "wins": 0,
-    "losses": 0,
+    "net_pnl": -574.98,
+    "return_pct": -0.5749,
+    "n_strategies": 6,
+    "strategy_net_u": -465.4539,
+    "wins": 5,
+    "losses": 1,
     "flats": 0
   },
   "accounts": [
@@ -29,20 +29,189 @@
       "label_plain": "1",
       "display_name": "New money club",
       "days": 2,
-      "equity": 99909.22,
+      "equity": 99436.74,
       "principal": 100011.72,
-      "pnl": -102.5,
-      "rate_pct": -0.1025,
+      "pnl": -574.98,
+      "rate_pct": -0.5749,
       "onboard": "2026-11-05",
-      "n_strat": 0,
-      "net_u": 0,
-      "wins": 0,
-      "losses": 0
+      "n_strat": 6,
+      "net_u": -465.4539,
+      "wins": 5,
+      "losses": 1
     }
   ],
-  "strategies": [],
+  "strategies": [
+    {
+      "symbol": "BTCUSDT",
+      "base": "BTC",
+      "side": "long",
+      "side_cn": "多",
+      "label": "BTC多",
+      "open_px": 75017.2,
+      "close_px": 75575.16076787,
+      "pct": 0.7438,
+      "net_sum": 278.7199,
+      "result": "win",
+      "result_cn": "盈",
+      "reason": "",
+      "n_legs": 1,
+      "open_t": "11-06 23:05",
+      "close_t": "11-06 23:36",
+      "open_full": "2026-11-06 23:05:02",
+      "close_full": "2026-11-06 23:36:00",
+      "accounts": [
+        1
+      ],
+      "accounts_label": [
+        "①"
+      ],
+      "by_acc": {
+        "1": 278.7199
+      }
+    },
+    {
+      "symbol": "ETHUSDT",
+      "base": "ETH",
+      "side": "long",
+      "side_cn": "多",
+      "label": "ETH多",
+      "open_px": 2211.92,
+      "close_px": 2225.91558069,
+      "pct": 0.6327,
+      "net_sum": 135.0627,
+      "result": "win",
+      "result_cn": "盈",
+      "reason": "",
+      "n_legs": 1,
+      "open_t": "11-06 23:05",
+      "close_t": "11-06 23:08",
+      "open_full": "2026-11-06 23:05:43",
+      "close_full": "2026-11-06 23:08:40",
+      "accounts": [
+        1
+      ],
+      "accounts_label": [
+        "①"
+      ],
+      "by_acc": {
+        "1": 135.0627
+      }
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "base": "HYPE",
+      "side": "long",
+      "side_cn": "多",
+      "label": "HYPE多",
+      "open_px": 77.908,
+      "close_px": 79.05650396,
+      "pct": 1.4742,
+      "net_sum": 56.5559,
+      "result": "win",
+      "result_cn": "盈",
+      "reason": "",
+      "n_legs": 1,
+      "open_t": "11-06 13:40",
+      "close_t": "11-06 21:31",
+      "open_full": "2026-11-06 13:40:57",
+      "close_full": "2026-11-06 21:31:24",
+      "accounts": [
+        1
+      ],
+      "accounts_label": [
+        "①"
+      ],
+      "by_acc": {
+        "1": 56.5559
+      }
+    },
+    {
+      "symbol": "ETHUSDT",
+      "base": "ETH",
+      "side": "long",
+      "side_cn": "多",
+      "label": "ETH多",
+      "open_px": 2227.35,
+      "close_px": 2225.91558069,
+      "pct": -0.0644,
+      "net_sum": 165.3094,
+      "result": "win",
+      "result_cn": "盈",
+      "reason": "",
+      "n_legs": 1,
+      "open_t": "11-06 13:40",
+      "close_t": "11-06 21:13",
+      "open_full": "2026-11-06 13:40:59",
+      "close_full": "2026-11-06 21:13:10",
+      "accounts": [
+        1
+      ],
+      "accounts_label": [
+        "①"
+      ],
+      "by_acc": {
+        "1": 165.3094
+      }
+    },
+    {
+      "symbol": "BTCUSDT",
+      "base": "BTC",
+      "side": "long",
+      "side_cn": "多",
+      "label": "BTC多",
+      "open_px": 75685.7,
+      "close_px": 75575.16076787,
+      "pct": -0.1461,
+      "net_sum": 132.8705,
+      "result": "win",
+      "result_cn": "盈",
+      "reason": "",
+      "n_legs": 1,
+      "open_t": "11-06 13:50",
+      "close_t": "11-06 21:04",
+      "open_full": "2026-11-06 13:50:26",
+      "close_full": "2026-11-06 21:04:32",
+      "accounts": [
+        1
+      ],
+      "accounts_label": [
+        "①"
+      ],
+      "by_acc": {
+        "1": 132.8705
+      }
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "base": "HYPE",
+      "side": "long",
+      "side_cn": "多",
+      "label": "HYPE多",
+      "open_px": 82.2,
+      "close_px": 79.05650396,
+      "pct": -3.8242,
+      "net_sum": -1233.9723,
+      "result": "loss",
+      "result_cn": "亏",
+      "reason": "",
+      "n_legs": 1,
+      "open_t": "11-05 20:06",
+      "close_t": "11-05 23:02",
+      "open_full": "2026-11-05 20:06:11",
+      "close_full": "2026-11-05 23:02:21",
+      "accounts": [
+        1
+      ],
+      "accounts_label": [
+        "①"
+      ],
+      "by_acc": {
+        "1": -1233.9723
+      }
+    }
+  ],
   "positions": {
-    "updated_at": "2026-11-07T00:04:00+08:00",
+    "updated_at": "2026-11-07T00:10:58+08:00",
     "futures": [
       {
         "symbol": "HYPE",
@@ -56,10 +225,12 @@
   "notes_public": [
     "WEEX copy-trading lead account: New money club.",
     "Principal baseline reset to latest equity on 2026-11-05 per user.",
+    "Closed strategies from copy trader historyOrders since 2026-11-05 17:00 Asia/Shanghai.",
     "Daily refresh (Asia/Shanghai)."
   ],
   "source_files": [
     "live WEEX REST /capi/v3/account/balance",
-    "live WEEX REST /capi/v3/account/position/allPosition"
+    "live WEEX REST /capi/v3/account/position/allPosition",
+    "live WEEX REST /capi/v3/copy/trader/historyOrders"
   ]
 }
