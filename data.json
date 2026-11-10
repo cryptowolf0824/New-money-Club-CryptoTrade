@@ -1,25 +1,25 @@
 {
   "title": "Strategy Performance · New money club",
   "title_cn": "策略业绩公开页 · New money club",
-  "generated_at": "2026-11-10T00:07:32+08:00",
+  "generated_at": "2026-11-11T00:05:36+08:00",
   "tz": "Asia/Shanghai",
   "display_rule": "Public display name: New money club; ordinal ①/#1. No UIDs, API keys, or internal env names.",
   "disclaimer": "Read-only performance summary. Not financial advice. Not copy-trading signals. No API keys or account credentials are published.",
-  "position_status": "合约无策略仓；现货无策略仓",
+  "position_status": "合约 BTC多@73224.6、ETH多@2061.33；现货无策略仓",
   "scope": {
     "accounts": "1",
     "exchange": "WEEX",
     "note_cn": "仅 WEEX bot 管理账户 New money club；序号 ①；本金=用户指定最新权益基准；策略自 2026-11-05 17:00+08 起算"
   },
   "totals": {
-    "equity": 92673.45,
+    "equity": 79908.31,
     "principal": 100011.72,
-    "net_pnl": -7338.27,
-    "return_pct": -7.3374,
-    "n_strategies": 10,
-    "strategy_net_u": -7268.0337,
-    "wins": 6,
-    "losses": 4,
+    "net_pnl": -20103.41,
+    "return_pct": -20.1011,
+    "n_strategies": 17,
+    "strategy_net_u": -17625.3013,
+    "wins": 8,
+    "losses": 9,
     "flats": 0
   },
   "accounts": [
@@ -28,19 +28,215 @@
       "label": "①",
       "label_plain": "1",
       "display_name": "New money club",
-      "days": 5,
-      "equity": 92673.45,
+      "days": 6,
+      "equity": 79908.31,
       "principal": 100011.72,
-      "pnl": -7338.27,
-      "rate_pct": -7.3374,
+      "pnl": -20103.41,
+      "rate_pct": -20.1011,
       "onboard": "2026-11-05",
-      "n_strat": 10,
-      "net_u": -7268.0337,
-      "wins": 6,
-      "losses": 4
+      "n_strat": 17,
+      "net_u": -17625.3013,
+      "wins": 8,
+      "losses": 9
     }
   ],
   "strategies": [
+    {
+      "symbol": "BTCUSDT",
+      "base": "BTC",
+      "side": "long",
+      "side_cn": "多",
+      "label": "BTC多",
+      "open_px": 74506.5,
+      "close_px": 73069.5,
+      "pct": -1.9287,
+      "net_sum": -1488.7143,
+      "result": "loss",
+      "result_cn": "亏",
+      "reason": "",
+      "n_legs": 1,
+      "open_t": "11-10 16:35",
+      "close_t": "11-10 23:42",
+      "open_full": "2026-11-10 16:35:00",
+      "close_full": "2026-11-10 23:42:13",
+      "accounts": [
+        1
+      ],
+      "accounts_label": [
+        "①"
+      ],
+      "by_acc": {
+        "1": -1488.7143
+      }
+    },
+    {
+      "symbol": "LINKUSDT",
+      "base": "LINK",
+      "side": "long",
+      "side_cn": "多",
+      "label": "LINK多",
+      "open_px": 10.659,
+      "close_px": 10.185,
+      "pct": -4.4469,
+      "net_sum": -3005.9956,
+      "result": "loss",
+      "result_cn": "亏",
+      "reason": "",
+      "n_legs": 1,
+      "open_t": "11-10 16:35",
+      "close_t": "11-10 23:40",
+      "open_full": "2026-11-10 16:35:57",
+      "close_full": "2026-11-10 23:40:34",
+      "accounts": [
+        1
+      ],
+      "accounts_label": [
+        "①"
+      ],
+      "by_acc": {
+        "1": -3005.9956
+      }
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "base": "HYPE",
+      "side": "long",
+      "side_cn": "多",
+      "label": "HYPE多",
+      "open_px": 74.689,
+      "close_px": 73.321,
+      "pct": -1.8316,
+      "net_sum": -1795.6693,
+      "result": "loss",
+      "result_cn": "亏",
+      "reason": "",
+      "n_legs": 1,
+      "open_t": "11-10 16:06",
+      "close_t": "11-10 22:58",
+      "open_full": "2026-11-10 16:06:45",
+      "close_full": "2026-11-10 22:58:02",
+      "accounts": [
+        1
+      ],
+      "accounts_label": [
+        "①"
+      ],
+      "by_acc": {
+        "1": -1795.6693
+      }
+    },
+    {
+      "symbol": "ETHUSDT",
+      "base": "ETH",
+      "side": "long",
+      "side_cn": "多",
+      "label": "ETH多",
+      "open_px": 2115.42,
+      "close_px": 2028.670001143877,
+      "pct": -4.1008,
+      "net_sum": -3891.5576,
+      "result": "loss",
+      "result_cn": "亏",
+      "reason": "",
+      "n_legs": 1,
+      "open_t": "11-10 16:06",
+      "close_t": "11-10 21:30",
+      "open_full": "2026-11-10 16:06:43",
+      "close_full": "2026-11-10 21:30:26",
+      "accounts": [
+        1
+      ],
+      "accounts_label": [
+        "①"
+      ],
+      "by_acc": {
+        "1": -3891.5576
+      }
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "base": "HYPE",
+      "side": "long",
+      "side_cn": "多",
+      "label": "HYPE多",
+      "open_px": 75.013,
+      "close_px": 75.19800000000001,
+      "pct": 0.2466,
+      "net_sum": 113.8405,
+      "result": "win",
+      "result_cn": "盈",
+      "reason": "",
+      "n_legs": 1,
+      "open_t": "11-10 00:57",
+      "close_t": "11-10 07:04",
+      "open_full": "2026-11-10 00:57:41",
+      "close_full": "2026-11-10 07:04:57",
+      "accounts": [
+        1
+      ],
+      "accounts_label": [
+        "①"
+      ],
+      "by_acc": {
+        "1": 113.8405
+      }
+    },
+    {
+      "symbol": "LINKUSDT",
+      "base": "LINK",
+      "side": "long",
+      "side_cn": "多",
+      "label": "LINK多",
+      "open_px": 10.664,
+      "close_px": 10.615,
+      "pct": -0.4595,
+      "net_sum": -425.7152,
+      "result": "loss",
+      "result_cn": "亏",
+      "reason": "",
+      "n_legs": 1,
+      "open_t": "11-10 01:46",
+      "close_t": "11-10 03:54",
+      "open_full": "2026-11-10 01:46:10",
+      "close_full": "2026-11-10 03:54:09",
+      "accounts": [
+        1
+      ],
+      "accounts_label": [
+        "①"
+      ],
+      "by_acc": {
+        "1": -425.7152
+      }
+    },
+    {
+      "symbol": "BTCUSDT",
+      "base": "BTC",
+      "side": "long",
+      "side_cn": "多",
+      "label": "BTC多",
+      "open_px": 74840.0,
+      "close_px": 75005.0,
+      "pct": 0.2205,
+      "net_sum": 136.5439,
+      "result": "win",
+      "result_cn": "盈",
+      "reason": "",
+      "n_legs": 1,
+      "open_t": "11-10 01:07",
+      "close_t": "11-10 03:44",
+      "open_full": "2026-11-10 01:07:46",
+      "close_full": "2026-11-10 03:44:25",
+      "accounts": [
+        1
+      ],
+      "accounts_label": [
+        "①"
+      ],
+      "by_acc": {
+        "1": 136.5439
+      }
+    },
     {
       "symbol": "LINKUSDT",
       "base": "LINK",
@@ -323,8 +519,21 @@
     }
   ],
   "positions": {
-    "updated_at": "2026-11-10T00:07:32+08:00",
-    "futures": [],
+    "updated_at": "2026-11-11T00:05:36+08:00",
+    "futures": [
+      {
+        "symbol": "BTC",
+        "cost": 73224.6,
+        "side": "long",
+        "side_cn": "多"
+      },
+      {
+        "symbol": "ETH",
+        "cost": 2061.33,
+        "side": "long",
+        "side_cn": "多"
+      }
+    ],
     "spot": [],
     "rule": "strategy holdings only (not incidental wallet balances)"
   },
