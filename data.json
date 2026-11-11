@@ -1,21 +1,21 @@
 {
   "title": "Strategy Performance · New money club",
   "title_cn": "策略业绩公开页 · New money club",
-  "generated_at": "2026-11-11T00:05:36+08:00",
+  "generated_at": "2026-11-12T00:10:27+08:00",
   "tz": "Asia/Shanghai",
   "display_rule": "Public display name: New money club; ordinal ①/#1. No UIDs, API keys, or internal env names.",
   "disclaimer": "Read-only performance summary. Not financial advice. Not copy-trading signals. No API keys or account credentials are published.",
-  "position_status": "合约 BTC多@73224.6、ETH多@2061.33；现货无策略仓",
+  "position_status": "合约 LINK多@10.369、BTC多@73224.6、ETH多@2061.33；现货无策略仓",
   "scope": {
     "accounts": "1",
     "exchange": "WEEX",
     "note_cn": "仅 WEEX bot 管理账户 New money club；序号 ①；本金=用户指定最新权益基准；策略自 2026-11-05 17:00+08 起算"
   },
   "totals": {
-    "equity": 79908.31,
+    "equity": 91772.79,
     "principal": 100011.72,
-    "net_pnl": -20103.41,
-    "return_pct": -20.1011,
+    "net_pnl": -8238.93,
+    "return_pct": -8.238,
     "n_strategies": 17,
     "strategy_net_u": -17625.3013,
     "wins": 8,
@@ -28,11 +28,11 @@
       "label": "①",
       "label_plain": "1",
       "display_name": "New money club",
-      "days": 6,
-      "equity": 79908.31,
+      "days": 7,
+      "equity": 91772.79,
       "principal": 100011.72,
-      "pnl": -20103.41,
-      "rate_pct": -20.1011,
+      "pnl": -8238.93,
+      "rate_pct": -8.238,
       "onboard": "2026-11-05",
       "n_strat": 17,
       "net_u": -17625.3013,
@@ -519,8 +519,14 @@
     }
   ],
   "positions": {
-    "updated_at": "2026-11-11T00:05:36+08:00",
+    "updated_at": "2026-11-12T00:10:27+08:00",
     "futures": [
+      {
+        "symbol": "LINK",
+        "cost": 10.369,
+        "side": "long",
+        "side_cn": "多"
+      },
       {
         "symbol": "BTC",
         "cost": 73224.6,
@@ -546,6 +552,7 @@
   "source_files": [
     "live WEEX REST /capi/v3/account/balance",
     "live WEEX REST /capi/v3/account/position/allPosition",
-    "live WEEX REST /capi/v3/copy/trader/historyOrders"
+    "live WEEX REST /capi/v3/copy/trader/historyOrders",
+    "live WEEX REST /capi/v3/copy/trader/openOrders"
   ]
 }
